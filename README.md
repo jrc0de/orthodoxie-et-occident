@@ -1,6 +1,7 @@
-# Vies des saints du calendrier liturgique
+# Orthodoxie & Occident
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-La structure est la suivante :
+## Contribuer aux vies de saints
 
 ```
 📁 docs
@@ -20,7 +21,3 @@ La structure est la suivante :
 ```
 
 Pour obtenir l'identifiant numerique d'un saint et visualiser la presence ou l'absence d'un type de vie en base de donnees se rendre a l'adresse 🔗https://ecof-api-production.up.railway.app/api/monitoring
-
-## Contribution
-
-Toute contribution est la bienvenue ! N'hésitez pas à ouvrir une _issue_ ou une _pull request_.
