@@ -1,0 +1,11 @@
+:root {
+  --vp-c-brand-1: #1a4faf; /* couleur principale */
+  --vp-c-brand-2: #1a3d8a; /* un peu plus foncé pour le hover */
+  --vp-c-brand-3: #5a90e0; /* plus clair pour les accents */
+  --vp-c-brand-soft: rgba(26, 79, 175, 0.1);
+  --vp-c-bg: #e8e4d4; /* parchemin chaud */
+  --vp-c-bg-soft: #ddd8c4; /* parchemin légèrement plus soutenu */
+  --vp-c-bg-alt: #d4cebc; /* sidebar ocre doux */
+  --vp-c-text-1: #1a4faf; /* encre bleue nuit */
+  --vp-c-text-2: #3a5a8a;
+}

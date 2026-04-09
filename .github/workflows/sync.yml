@@ -1,0 +1,23 @@
+name: Sync synaxar to database
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/synaxaire/vies-liturgiques/**"
+      - "docs/synaxaire/vies-longues/**"
+      - "docs/synaxaire/vies-breves/**"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+      - run: bun install
+      - run: bun scripts/sync.js
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
